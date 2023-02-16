@@ -4,20 +4,28 @@ const numberOfCategories = categoriesRef.children.length;
 console.log(`Number of categories: ${numberOfCategories}`);
 
 const titlesRef = document.querySelectorAll("h2");
-const allElemsInCategory = document.querySelectorAll(".item ul");
-const numberOfSubCategories = allElemsInCategory.children;
+const elementsInCategory = document.querySelectorAll(".item ul");
+const items = document.querySelectorAll('.item');
 
-console.log(categoriesRef);
 
-// const getTitles = () =>
-//   titlesRef.forEach((el) => {
+
+
+// // const getTitles = () =>
+//   titlesRef.forEach(el => {
 //     console.log(`Category: `, el.textContent);
 //   });
 
-// const getNumberOfElements = () =>
-//   allElemsInCategory.forEach((el) => {
+// // const getNumberOfElements = () =>
+//   elementsInCategory.forEach((el) => {
 //     console.log(`Elements: `, el.children.length);
 //   });
 
 // getTitles();
 // getNumberOfElements();
+
+
+console.log(items);
+
+items.forEach(el => {
+	console.log(`Elements: `, el.children.length);
+});
