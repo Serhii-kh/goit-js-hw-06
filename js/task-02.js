@@ -17,14 +17,3 @@ for (let i = 0; i < ingredients.length; i += 1) {
 
   listRef.appendChild(listItemRef);
 }
-
-// console.log(listRef);
-
-
-
-// const markup = ingredients
-//   .map((ingredient) => `<li class="item">${ingredient}</li>`)
-//   .join("");
-
-// listRef.insertAdjacentHTML("beforeend", markup);
-
