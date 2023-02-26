@@ -24,7 +24,7 @@ const createBoxes = () => {
     newDivRef.style.backgroundColor = getRandomHexColor();
     newDivRef.style.width = boxSize + `px`;
     newDivRef.style.height = boxSize + `px`;
-    newDivRef.style.margin = `5px`;
+    newDivRef.style.marginTop = `5px`;
 
     boxesDivRef.appendChild(newDivRef);
   }
