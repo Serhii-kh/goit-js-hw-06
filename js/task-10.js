@@ -11,6 +11,7 @@ let boxSize = 20;
 
 const destroyBoxes = () => {
   boxesDivRef.innerHTML = "";
+  inputRef.value = "";
   boxSize = 20;
 };
 
